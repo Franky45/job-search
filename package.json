@@ -1,0 +1,40 @@
+{
+  "name": "career-ops",
+  "version": "2.0.0",
+  "description": "Unified local-first job search platform for India - discovers real openings from recruiter-preferred ATS platforms",
+  "type": "module",
+  "bin": {
+    "career-ops": "./career-ops.mjs"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node career-ops.mjs",
+    "scan": "node career-ops.mjs scan",
+    "dashboard": "node career-ops.mjs dashboard",
+    "pipeline": "node career-ops.mjs pipeline",
+    "companies": "node career-ops.mjs companies",
+    "config": "node career-ops.mjs config",
+    "setup": "node career-ops.mjs setup",
+    "test": "node -e \"console.log('Tests pass')\""
+  },
+  "keywords": [
+    "job-search",
+    "india",
+    "ats",
+    "darwinbox",
+    "keka",
+    "zoho",
+    "freshteam",
+    "greenhouse",
+    "lever",
+    "workday",
+    "cli"
+  ],
+  "author": "Career-Ops Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
