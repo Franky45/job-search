@@ -1,0 +1,1 @@
+SKILLS: Java, Spring Boot, React, TypeScript, AWS, Docker, Kubernetes, SQL, Git, Maven, Jenkins, JUnit, Mockito, REST API, Microservices, Agile, Scrum
